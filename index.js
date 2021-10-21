@@ -65,7 +65,7 @@ class LinkedList{
         return delTail
       }
       
-      if(this.length = 1){
+      if(this.length === 1){
         this.head = null;
         this.tail = null;
         this.length = 0;
